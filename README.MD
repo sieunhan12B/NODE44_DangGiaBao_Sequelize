@@ -31,7 +31,7 @@ console.log("Sever online with port 8081");
 
 ------------------B5: npm i sequelize sequelize-auto (lib giúp làm việc với db)
 ------------------B6: npm mysql2
-------------------B7: npx sequelize-auto -h localhost -d youtube_mini -u root -x 123456 -p 3307 --dialect mysql -o src/models -l esm (link với db)
+------------------B7: npx sequelize-auto -h localhost -d khoa_hoc -u root -x 123456 -p 3308 --dialect mysql -o src/models -l esm (link với db)
 (link với data base có:
 -localhost:localhost
 -database: youtube_mini

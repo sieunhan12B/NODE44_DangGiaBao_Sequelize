@@ -1,14 +1,14 @@
 import express from "express";
-import likeResRoutes from "./likeres.router.js";
-import reviewRoutes from "./review.router.js";
 import userRoutes from "./user.router.js";
-
+import courseRoutes from "./course.router.js";
+import authRouter from "./auth.router.js";
+import categoryRouter from "./category.router.js";
 // tạo object router tổng
 const rootRoutes = express.Router();
 
-rootRoutes.use("/like-res", likeResRoutes);
-rootRoutes.use("/review", reviewRoutes);
-rootRoutes.use("/user", userRoutes);
-
+rootRoutes.use("/QuanLyNguoiDung", userRoutes);
+rootRoutes.use("/QuanLyKhoaHoc", courseRoutes);
+rootRoutes.use("/Auth", authRouter);
+rootRoutes.use("/QuanLyDanhMuc", categoryRouter);
 // export rootRoutes cho index.js dùng
 export default rootRoutes;

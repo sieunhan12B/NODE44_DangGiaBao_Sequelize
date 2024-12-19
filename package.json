@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "appfoodsequelize",
+  "name": "khoahoc",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
@@ -47,6 +47,7 @@
     "mime-db": "^1.52.0",
     "mime-types": "^2.1.35",
     "ms": "^2.0.0",
+    "multer": "^1.4.5-lts.1",
     "mysql2": "^3.11.3",
     "negotiator": "^0.6.3",
     "nodemon": "^3.1.7",
